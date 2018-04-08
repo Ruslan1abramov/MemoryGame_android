@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="ruslan_abramov.memorygame.MediumActivity">
+
+    <TextView
+        android:id="@+id/mTimerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mUserInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="368dp"
+        android:layout_height="468dp"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/mImageButton1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton1"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton2"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+
+        <ImageButton
+            android:id="@+id/mImageButton4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton3"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton5"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton3"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton6"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton8"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton4"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton7"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton9"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton10"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton6"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton9"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton11"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton7"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton10"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton12"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton8"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton11"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton13"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton14"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton10"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton13"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton15"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton11"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton14"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/mImageButton16"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="40pt"
+            android:maxWidth="40pt"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toEndOf="@+id/mImageButton12"
+            app:layout_constraintTop_toBottomOf="@+id/mImageButton15"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

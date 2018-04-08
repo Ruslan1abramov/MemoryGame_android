@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+
+    <string name="nameTextView">Your Full Name</string>
+    <string name="nameEditText">Please enter your full name</string>
+    <string name="ageTextView">Your Age</string>
+    <string name="ageEditText">Please enter your age</string>
+    <string name="greetings">Welcome to my memory game</string>
+    <string name="buttonFinished">Continue</string>
+
+    <string name="selectDifficulty">Please select a difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">HARD</string>
+
+    <string name="secondInMilli">1000</string>
+    <string name="easyTime">30</string>
+    <string name="mediumTime">45</string>
+    <string name="hardTime">60</string>
+
+    <string name="youLose">Time is Up! you lose, better luck next time</string>
+    <string name="secondsLeft1">You have: </string>
+    <string name="secondsLeft2">seconds left </string>
+    <string name="youWon">You WON!!!!!</string>
+</resources>
