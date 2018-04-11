@@ -42,6 +42,7 @@ public class LogIn extends AppCompatActivity {
                 intent.putExtra("userAge", age);
                 //going to next activity
                 startActivity(intent);
+
             }
         });
 

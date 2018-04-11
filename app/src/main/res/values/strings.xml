@@ -10,6 +10,8 @@
     <string name="greetings">Welcome to my memory game</string>
     <string name="buttonFinished">Continue</string>
 
+    <string name="helloTO">Player Name :</string>
+    <string name="whoIsAged">Player Age : </string>
     <string name="selectDifficulty">Please select a difficulty</string>
     <string name="easy">Easy</string>
     <string name="medium">Medium</string>
@@ -20,8 +22,10 @@
     <string name="mediumTime">45</string>
     <string name="hardTime">60</string>
 
-    <string name="youLose">Time is Up! you lose, better luck next time</string>
+    <string name="youLose">Time\'s Up! you lose, better luck next time</string>
     <string name="secondsLeft1">You have: </string>
     <string name="secondsLeft2">seconds left </string>
     <string name="youWon">You WON!!!!!</string>
+    <string name="youWonTryAHarderLevel">You are good try a harder level</string>
+    <string name="youAreAMaster">WOW YOU WON THE HARD LEVEL YOU ARE A MASTER!!!!</string>
 </resources>
