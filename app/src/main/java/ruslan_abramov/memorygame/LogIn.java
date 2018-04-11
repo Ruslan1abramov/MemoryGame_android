@@ -1,3 +1,7 @@
+/**
+* created by
+* ruslan abramov 306847393
+*/
 package ruslan_abramov.memorygame;
 
 import android.content.Intent;
@@ -27,15 +31,16 @@ public class LogIn extends AppCompatActivity {
         continueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                //gathering user info
                 String userNameString = userName.getText().toString();  //getting user name
-                int age = Integer.parseInt(userAge.getText().toString()); //getting user age
-
-                Intent intent = new Intent(LogIn.this , SelectDifficulty.class);
-
+                userNameString = userNameString.isEmpty() ? getString(R.string.defaultName) : userNameString;
+                String userAgeString = userAge.getText().toString();
+                int age = Integer.parseInt(userAgeString.isEmpty() ? getString(R.string.defaultAge) : userAgeString); //getting user age
+                //adding user info to next activity
+                Intent intent = new Intent(LogIn.this, SelectDifficulty.class);
                 intent.putExtra("userName", userNameString);
                 intent.putExtra("userAge", age);
-
+                //going to next activity
                 startActivity(intent);
             }
         });
